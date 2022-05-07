@@ -6,7 +6,7 @@ License: https://www.wowthemes.net/freebies-license/
 */
 
 body {
-	padding-top:5rem;
+	padding-top:15rem;
 }
 .mainheading {
 	padding:1rem 0rem;
@@ -18,9 +18,9 @@ a,a:hover {
 	transition:all 0.2s;
 }
 .mediumnavigation {
-	background:rgba(255, 255, 255, 0.97);
+	background:rgba(238, 138, 138, 0.97);
 	box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
-	/* padding-top:5rem; */
+	padding-top:5rem;
 }
 section {
 	margin-bottom:20px;
@@ -198,7 +198,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mediumnavigation .navbar-brand img {
 	max-height:30px;
-	/* max-height:300px; */
+	max-height:100px;
 	margin-right:5px;
 }
 .mainheading h1.sitetitle {
