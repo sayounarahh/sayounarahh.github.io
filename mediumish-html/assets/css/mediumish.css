@@ -6,7 +6,7 @@ License: https://www.wowthemes.net/freebies-license/
 */
 
 body {
-	padding-top:25rem;
+	padding-top:11rem;
 }
 .mainheading {
 	padding:1rem 0rem;
@@ -18,9 +18,9 @@ a,a:hover {
 	transition:all 0.2s;
 }
 .mediumnavigation {
-	background:rgba(238, 138, 138, 0.97);
+	background:rgba(255, 254, 254, 0.97);
 	box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
-	padding-top:5rem;
+	padding-top:2rem;
 }
 section {
 	margin-bottom:20px;
@@ -48,6 +48,7 @@ section {
 @media (min-width:992px) {
 	.navbar-toggleable-md .navbar-nav .nav-link {
 		padding-right:.7rem;
+		padding-top:5rem;
 		padding-left:.7rem;
 	}
 }
@@ -132,6 +133,16 @@ section {
 	margin-top:5px;
 	font-size:0.95rem;
 }
+.navbar-collapse::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    width: 1007px;
+    border-bottom: 1px solid #000000;
+    -webkit-transition: width .3s ease, left .3s ease;
+    transition: width .3s ease, left .3s ease;
+}
 .author-meta {
 	flex:1 1 auto;
 	white-space:nowrap!important;
@@ -196,10 +207,20 @@ span.post-name a,span.post-read-more a:hover {
 	margin-top:3px;
 	cursor:pointer;
 }
-.mediumnavigation .navbar-brand img {
+.menu-icon {
+	margin-left:-40px;
+	/* display:inline-block; */
+	margin-top:-330px;
+	/* margin-bottom:-30px; */
+	cursor:pointer;
+}
+/* LOGO */
+.mediumnavigation .navbar-brand img { 
 	max-height:30px;
-	max-height:100px;
+	max-height:160px;
 	margin-right:5px;
+	margin-left:-20px;
+	margin-bottom:-20px;
 }
 .mainheading h1.sitetitle {
 	font-family:Righteous;
@@ -443,4 +464,15 @@ ul.tags li a:hover {
 	line-height:22px;
 	border-radius:50%;
 	font-size:12px;
+}
+
+.featured-pic {
+	/* background-size:cover; */
+	height:100%;
+	object-fit: cover;
+	/* color:#fff; */
+	display:block;
+	/* background-position:38% 22% !important; */
+	/* background-origin:border-box!important; */
+	/* border-top-left-radius:2px; */
 }
