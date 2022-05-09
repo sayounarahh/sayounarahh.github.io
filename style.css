@@ -1508,12 +1508,24 @@ hr.invis3 {
     vertical-align: middle;
     width: 400px;
 }
-
+/* for featured */
 .card-block {
     -moz-box-flex: 1;
     background: #ffffff none repeat scroll 0 0;
     padding: 1.25rem 3rem;
     border-radius: 0 !important;
+    height: 200px;
+    /* position: absolute; */
+}
+
+
+.card-block-all {
+    -moz-box-flex: 1;
+    background: #ffffff none repeat scroll 0 0;
+    padding: 1.25rem 3rem;
+    border-radius: 0 !important;
+    height: 250px;
+    /* position: absolute; */
 }
 
 .top-search .btn:hover,
